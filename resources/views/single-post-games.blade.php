@@ -58,14 +58,6 @@
         <li>
           <a href="#" class="sidenav__menu-url">Home</a>
           <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
-          <ul class="sidenav__menu-dropdown">
-            <li><a href="/" class="sidenav__menu-url">Home Default</a></li>
-            <li><a href="index-politics" class="sidenav__menu-url">Home Politics</a></li>
-            <li><a href="index-fashion" class="sidenav__menu-url">Home Fashion</a></li>
-            <li><a href="index-games" class="sidenav__menu-url">Home Games</a></li>
-            <li><a href="index-videos" class="sidenav__menu-url">Home Videos</a></li>
-            <li><a href="index-music" class="sidenav__menu-url">Home Music</a></li>
-          </ul>
         </li>
         <li>
           <a href="#" class="sidenav__menu-url">Pages</a>
@@ -73,48 +65,15 @@
           <ul class="sidenav__menu-dropdown">
             <li><a href="about" class="sidenav__menu-url">About</a></li>
             <li><a href="contact" class="sidenav__menu-url">Contact</a></li>
-            <li><a href="search-results" class="sidenav__menu-url">Search Results</a></li>
             <li><a href="categories" class="sidenav__menu-url">Categories</a></li>
-            <li><a href="404" class="sidenav__menu-url">404</a></li>
           </ul>
         </li>
         <li>
-          <a href="#" class="sidenav__menu-url">Features</a>
-          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
           <ul class="sidenav__menu-dropdown">
             <li>
               <a href="#" class="sidenav__menu-url">Single Post</a>
               <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
-              <ul class="sidenav__menu-dropdown">
-                <li><a href="single-post" class="sidenav__menu-url">Style 1</a></li>
-                <li><a href="single-post-politics" class="sidenav__menu-url">Style 2</a></li>
-                <li><a href="single-post-fashion" class="sidenav__menu-url">Style 3</a></li>
-                <li><a href="single-post-games" class="sidenav__menu-url">Style 4</a></li>
-                <li><a href="single-post-videos" class="sidenav__menu-url">Style 5</a></li>
-                <li><a href="single-post-music" class="sidenav__menu-url">Style 6</a></li>
-              </ul>
             </li>
-            <li><a href="shortcodes" class="sidenav__menu-url">Shortcodes</a></li>
-          </ul>
-        </li>        
-
-        <!-- Categories -->
-        <li>
-          <a href="#" class="sidenav__menu-url">World</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Business</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Fashion</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Lifestyle</a>
-        </li>
-        <li>
-          <a href="#" class="sidenav__menu-url">Advertise</a>
-        </li>
-      </ul>
     </nav>
 
     <div class="socials sidenav__socials"> 
@@ -136,46 +95,7 @@
     </div>
   </header> <!-- end sidenav -->
 
-  <main class="main oh" id="main">
-
-    <!-- Top Bar -->
-    <div class="top-bar d-none d-lg-block">
-      <div class="container">
-        <div class="row">
-
-          <!-- Top menu -->
-          <div class="col-lg-6">
-            <ul class="top-menu">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Advertise</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          
-          <!-- Socials -->
-          <div class="col-lg-6">
-            <div class="socials nav__socials socials--nobase socials--white justify-content-end"> 
-              <a class="social social-facebook" href="#" target="_blank" aria-label="facebook">
-                <i class="ui-facebook"></i>
-              </a>
-              <a class="social social-twitter" href="#" target="_blank" aria-label="twitter">
-                <i class="ui-twitter"></i>
-              </a>
-              <a class="social social-google-plus" href="#" target="_blank" aria-label="google">
-                <i class="ui-google"></i>
-              </a>
-              <a class="social social-youtube" href="#" target="_blank" aria-label="youtube">
-                <i class="ui-youtube"></i>
-              </a>
-              <a class="social social-instagram" href="#" target="_blank" aria-label="instagram">
-                <i class="ui-instagram"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div> <!-- end top bar -->        
+    <!-- Top Bar --> <!-- end top bar -->        
 
     <!-- Navigation -->
     <header class="nav nav--colored">
@@ -201,95 +121,6 @@
 
                 <li class="nav__dropdown active">
                   <a href="/">Home</a>
-                  <ul class="nav__dropdown-menu">
-                    <li><a href="/">Home Default</a></li>
-                    <li><a href="index-politics">Home Politics</a></li>
-                    <li><a href="index-fashion">Home Fashion</a></li>
-                    <li><a href="index-games">Home Games</a></li>
-                    <li><a href="index-videos">Home Videos</a></li>
-                    <li><a href="index-music">Home Music</a></li>
-                  </ul>
-                </li>
-
-                <li class="nav__dropdown">
-                  <a href="#">Posts</a>
-                  <ul class="nav__dropdown-menu nav__megamenu">
-                    <li>
-                      <div class="nav__megamenu-wrap">
-                        <div class="row">
-
-                          <div class="col nav__megamenu-item">
-                            <article class="entry">
-                              <div class="entry__img-holder">
-                                <a href="single-post-games">
-                                  <img src="img/content/grid/grid_post_1.jpg" alt="" class="entry__img">
-                                </a>
-                                <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--violet">world</a>
-                              </div>
-
-                              <div class="entry__body">   
-                                <h2 class="entry__title">
-                                  <a href="single-post-games">Follow These Smartphone Habits of Successful Entrepreneurs</a>
-                                </h2>
-                              </div>
-                            </article>
-                          </div>
-
-                          <div class="col nav__megamenu-item">
-                            <article class="entry">
-                              <div class="entry__img-holder">
-                                <a href="single-post-games">
-                                  <img src="img/content/grid/grid_post_2.jpg" alt="" class="entry__img">
-                                </a>
-                                <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--purple">fashion</a>
-                              </div>
-
-                              <div class="entry__body">   
-                                <h2 class="entry__title">
-                                  <a href="single-post-games">3 Things You Can Do to Get Your Customers Talking About Your Business</a>
-                                </h2>
-                              </div>
-                            </article>
-                          </div>
-
-                          <div class="col nav__megamenu-item">
-                            <article class="entry">
-                              <div class="entry__img-holder">
-                                <a href="single-post-games">
-                                  <img src="img/content/grid/grid_post_3.jpg" alt="" class="entry__img">
-                                </a>
-                                <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--blue">business</a>
-                              </div>
-
-                              <div class="entry__body">   
-                                <h2 class="entry__title">
-                                  <a href="single-post-games">Lose These 12 Bad Habits If You're Serious About Becoming a Millionaire</a>
-                                </h2>
-                              </div>
-                            </article>
-                          </div>
-
-                          <div class="col nav__megamenu-item">
-                            <article class="entry">
-                              <div class="entry__img-holder">
-                                <a href="single-post-games">
-                                  <img src="img/content/grid/grid_post_4.jpg" alt="" class="entry__img">
-                                </a>
-                                <a href="categories" class="entry__meta-category entry__meta-category--label entry__meta-category--align-in-corner entry__meta-category--green">lifestyle</a>
-                              </div>
-
-                              <div class="entry__body">   
-                                <h2 class="entry__title">
-                                  <a href="single-post-games">10 Horrible Habits You're Doing Right Now That Are Draining Your Energy</a>
-                                </h2>
-                              </div>
-                            </article>
-                          </div>
-
-                        </div>
-                      </div>
-                    </li>
-                  </ul> <!-- end megamenu -->
                 </li>
 
                 <li class="nav__dropdown">
@@ -297,26 +128,11 @@
                   <ul class="nav__dropdown-menu">
                     <li><a href="about">About</a></li>
                     <li><a href="contact">Contact</a></li>
-                    <li><a href="search-results">Search Results</a></li>
                     <li><a href="categories">Categories</a></li>
-                    <li><a href="404">404</a></li>
                   </ul>
                 </li>
-
-                <li class="nav__dropdown">
-                  <a href="#">Features</a>
-                  <ul class="nav__dropdown-menu">
-                    <li><a href="shortcodes">Shortcodes</a></li>
                     <li class="nav__dropdown">
                       <a href="#">Single Post</a>
-                      <ul class="nav__dropdown-menu">
-                        <li><a href="single-post">Style 1</a></li>
-                        <li><a href="single-post-politics">Style 2</a></li>
-                        <li><a href="single-post-fashion">Style 3</a></li>
-                        <li><a href="single-post-games">Style 4</a></li>
-                        <li><a href="single-post-videos">Style 5</a></li>
-                        <li><a href="single-post-music">Style 6</a></li>
-                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -349,20 +165,7 @@
       </div>
     </header> <!-- end navigation -->
 
-    <!-- Breadcrumbs -->
-    <div class="container">
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs__item">
-          <a href="/" class="breadcrumbs__url">Home</a>
-        </li>
-        <li class="breadcrumbs__item">
-          <a href="/" class="breadcrumbs__url">News</a>
-        </li>
-        <li class="breadcrumbs__item breadcrumbs__item--current">
-          World
-        </li>
-      </ul>
-    </div>
+    <!-- Breadcrumbs -->x
 
     <!-- Entry Image -->
     <div class="thumb thumb--size-6">
