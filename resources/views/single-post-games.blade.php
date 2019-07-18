@@ -3,7 +3,7 @@
 
 <!-- Mirrored from deothemes.com/envato/deus/html/single-post-games by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:16 GMT -->
 <head>
-  <title>Deus | Single Post Games</title>
+  <title>Deus | Single Post Persib</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -155,7 +155,7 @@
                     </button>
                   </form>
                 </div>                
-              </div>    
+              </div>             
 
             </div> <!-- end nav right -->            
         
@@ -172,203 +172,15 @@
       <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/single/single_post_games_featured_img.jpg');">
       </div>
     </div>
-
-    <div class="main-container container" id="main-container">
-
-      <!-- Content -->
-      <div class="row">
-
-        <!-- Post Content -->
-        <div class="col-lg-8 blog__content mb-72">
-          <div class="content-box content-box--top-offset">
-
-            <!-- standard post -->
-            <article class="entry mb-0 singlepost">
-                <!-- end entry header -->             <!-- Newsletter Wide -->
-              <div class="newsletter-wide">
-                <div class="widget widget_mc4wp_form_widget">
-                  <div class="newsletter-wide__container">
-                    <div class="newsletter-wide__text-holder">
-                      <p class="newsletter-wide__text">
-                        <i class="ui-email newsletter__icon"></i>
-                        Subscribe for our daily news
-                      </p>
-                    </div>
-                    <div class="newsletter-wide__form">
-                      <form class="mc4wp-form" method="post">
-                        <div class="mc4wp-form-fields">
-                          <div class="form-group">
-                            <input type="email" name="EMAIL" placeholder="Your email" required="">
-                          </div>
-                          <div class="form-group">
-                            <input type="submit" class="btn btn-lg btn-color" value="Sign Up">
-                          </div>
-                        </div>
-                      </form>
+  
                     </div> 
                   </div>         
                 </div>
               </div> <!-- end newsletter wide -->
 
               <!-- Prev / Next Post -->
-              <nav class="entry-navigation">
-                <div class="clearfix">
-                  <div class="entry-navigation--left">
-                    <i class="ui-arrow-left"></i>
-                    <span class="entry-navigation__label">Previous Post</span>
-                    <div class="entry-navigation__link">
-                      <a href="#" rel="next">How to design your first mobile app</a>
-                    </div>
-                  </div>
-                  <div class="entry-navigation--right">
-                    <span class="entry-navigation__label">Next Post</span>
-                    <i class="ui-arrow-right"></i>
-                    <div class="entry-navigation__link">
-                      <a href="#" rel="prev">Video Youtube format post. Made with WordPress</a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
 
-              <!-- Author -->
-              <div class="entry-author clearfix">
-                <img alt="" data-src="img/content/single/author.jpg" src="img/empty.png" class="avatar lazyload">
-                <div class="entry-author__info">
-                  <h6 class="entry-author__name">
-                    <a href="#">John Carpet</a>
-                  </h6>
-                  <p class="mb-0">But unfortunately for most of us our role as gardener has never been explained to us. And in misunderstanding our role, we have allowed seeds of all types, both good and bad, to enter our inner garden.</p>
-                </div>
-              </div>              
-
-              <!-- Related Posts -->
-              <section class="section related-posts mt-40 mb-0">
-                <div class="title-wrap title-wrap--line title-wrap--pr">
-                  <h3 class="section-title">Related Articles</h3>
-                </div>
-
-                <!-- Slider -->
-                <div id="owl-posts-3-items" class="owl-carousel owl-theme owl-carousel--arrows-outside">
-                  <article class="entry thumb thumb--size-1">
-                    <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/carousel/carousel_post_1.jpg');">
-                      <div class="bottom-gradient"></div>
-                      <div class="thumb-text-holder">   
-                        <h2 class="thumb-entry-title">
-                          <a href="single-post">9 Things to Consider Before Accepting a New Job</a>
-                        </h2>
-                      </div>
-                      <a href="single-post" class="thumb-url"></a>
-                    </div>
-                  </article>
-                  <article class="entry thumb thumb--size-1">
-                    <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/carousel/carousel_post_2.jpg');">
-                      <div class="bottom-gradient"></div>
-                      <div class="thumb-text-holder">   
-                        <h2 class="thumb-entry-title">
-                          <a href="single-post">Gov’t Toughens Rules to Ensure 3rd Telco Player Doesn’t Slack Off</a>
-                        </h2>
-                      </div>
-                      <a href="single-post" class="thumb-url"></a>
-                    </div>
-                  </article>
-                  <article class="entry thumb thumb--size-1">
-                    <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/carousel/carousel_post_3.jpg');">
-                      <div class="bottom-gradient"></div>
-                      <div class="thumb-text-holder">   
-                        <h2 class="thumb-entry-title">
-                          <a href="single-post">(Infographic) Is Work-Life Balance Even Possible?</a>
-                        </h2>
-                      </div>
-                      <a href="single-post" class="thumb-url"></a>
-                    </div>
-                  </article>
-                  <article class="entry thumb thumb--size-1">
-                    <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/carousel/carousel_post_4.jpg');">
-                      <div class="bottom-gradient"></div>
-                      <div class="thumb-text-holder">   
-                        <h2 class="thumb-entry-title">
-                          <a href="single-post">Is Uber Considering To Sell its Southeast Asia Business to Grab?</a>
-                        </h2>
-                      </div>
-                      <a href="single-post" class="thumb-url"></a>
-                    </div>
-                  </article>
-                  <article class="entry thumb thumb--size-1">
-                    <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/carousel/carousel_post_2.jpg');">              
-                      <div class="bottom-gradient"></div>
-                      <div class="thumb-text-holder">   
-                        <h2 class="thumb-entry-title">
-                          <a href="single-post">Gov’t Toughens Rules to Ensure 3rd Telco Player Doesn’t Slack Off</a>
-                        </h2>
-                      </div>
-                      <a href="single-post" class="thumb-url"></a>
-                    </div>
-                  </article>
-                </div> <!-- end slider -->
-
-              </section> <!-- end related posts -->            
-
-            </article> <!-- end standard post -->
-
-            <!-- Comments -->
-            <div class="entry-comments">
-              <div class="title-wrap title-wrap--line">
-                <h3 class="section-title">3 comments</h3>
-              </div>
-              <ul class="comment-list">
-                <li class="comment">  
-                  <div class="comment-body">
-                    <div class="comment-avatar">
-                      <img alt="" src="img/content/single/comment_1.jpg">
-                    </div>
-                    <div class="comment-text">
-                      <h6 class="comment-author">Joeby Ragpa</h6>
-                      <div class="comment-metadata">
-                        <a href="#" class="comment-date">July 17, 2017 at 12:48 pm</a>
-                      </div>                      
-                      <p>This template is so awesome. I didn’t expect so many features inside. E-commerce pages are very useful, you can launch your online store in few seconds. I will rate 5 stars.</p>
-                      <a href="#" class="comment-reply">Reply</a>
-                    </div>
-                  </div>
-
-                  <ul class="children">
-                    <li class="comment">
-                      <div class="comment-body">
-                        <div class="comment-avatar">
-                          <img alt="" src="img/content/single/comment_2.jpg">
-                        </div>
-                        <div class="comment-text">
-                          <h6 class="comment-author">Alexander Samokhin</h6>
-                          <div class="comment-metadata">
-                            <a href="#" class="comment-date">July 17, 2017 at 12:48 pm</a>  
-                          </div>                      
-                          <p>This template is so awesome. I didn’t expect so many features inside. E-commerce pages are very useful, you can launch your online store in few seconds. I will rate 5 stars.</p>
-                          <a href="#" class="comment-reply">Reply</a>
-                        </div>
-                      </div>
-                    </li> <!-- end reply comment -->
-                  </ul>
-
-                </li> <!-- end 1-2 comment -->
-
-                <li>
-                  <div class="comment-body">
-                    <div class="comment-avatar">
-                      <img alt="" src="img/content/single/comment_3.jpg">
-                    </div>
-                    <div class="comment-text">
-                      <h6 class="comment-author">Chris Root</h6>
-                      <div class="comment-metadata">
-                        <a href="#" class="comment-date">July 17, 2017 at 12:48 pm</a>  
-                      </div>                      
-                      <p>This template is so awesome. I didn’t expect so many features inside. E-commerce pages are very useful, you can launch your online store in few seconds. I will rate 5 stars.</p>
-                      <a href="#" class="comment-reply">Reply</a>
-                    </div>
-                  </div>
-                </li> <!-- end 3 comment -->
-
-              </ul>         
-            </div> <!-- end comments -->
+             <!-- end comments -->
 
             <!-- Comment Form -->
             <div id="respond" class="comment-respond">

@@ -8,10 +8,6 @@ $.ajax({
 			$(".tampilberita").append(
 					`
 			  <ul class="entry__meta">
-                    <li class="entry__meta-category">
-                      <a href="#">${value.kategori}</a>
-                    </li>
-                  </ul>
                   <div class="entry__img-holder">
                     <a href="single-post-games">
                       <div class="thumb-container thumb-75">
@@ -41,6 +37,47 @@ $.ajax({
 		})
 	}
 })
+
+
+
+
+
+
+
+// $.ajax({
+//   url: 'api/berita',
+//   dataType: 'json',
+//     success:function(ambildata){
+//     $.each(ambildata.data.artikel,function(key,value){
+//       $(".tampi").append(
+//           `
+//            <div class="post-list-small__img-holder">
+//                     <div class="thumb-container thumb-100">
+//                       <a href="single-post-games">
+//                         <img data-src="assets/img/artikel/${value.foto}" src="img/empty.png" alt="" class="post-list-small__img--rounded lazyload">
+//                       </a>
+//                     </div>
+//                   </div>
+//                   <div class="post-list-small__body">
+//                     <h3 class="post-list-small__entry-title">
+//                       <a href="/berita/${value.slug}">${value.judul}</a>
+//                     </h3>
+//                     <ul class="entry__meta">
+//                       <li class="entry__meta-author">
+//                         <span>by</span>
+//                         <a href="#">${value.author}</a>
+//                       </li>
+//                       <li class="entry__meta-date">
+//                         Jan 21, 2018
+//                       </li>
+//                     </ul>
+//                   </div>        
+
+//           `
+//         }
+//       })
+//   }
+//   )}
 
 
 // $.ajax({

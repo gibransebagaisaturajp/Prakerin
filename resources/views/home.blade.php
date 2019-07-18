@@ -1,4 +1,4 @@
-@extends('adminbackend')
+@extends('adminbackend ')
 
 @section('content')
 <div class="container">
