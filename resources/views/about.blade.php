@@ -530,7 +530,7 @@
   <script src="js/jquery.newsTicker.min.js"></script>  
   <script src="js/modernizr.min.js"></script>
   <script src="js/scripts.js"></script>
-
+  <script src="js/tesjson.js"></script>
 </body>
 
 <!-- Mirrored from deothemes.com/envato/deus/html/about by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2019 04:45:01 GMT -->

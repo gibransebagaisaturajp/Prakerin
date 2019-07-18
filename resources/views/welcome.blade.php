@@ -179,29 +179,8 @@
     <section class="hero-slider">
       <div id="owl-hero-slider" class="owl-carousel owl-theme">
 
-        <div class="hero-slider__item">
-          <article class="entry thumb">
-            <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/hero/hero_post_7.jpg');">
-              <div class="bottom-gradient"></div>
-              <div class="thumb-text-holder thumb-text-holder--2">   
-                <h2 class="thumb-entry-title">
-                  <a href="single-post-games">This year's Battlefield is rumored to be set during World War 2</a>
-                </h2>
-                <ul class="entry__meta">
-                  <li class="entry__meta-author">
-                    <span>by</span>
-                    <a href="#">DeoThemes</a>
-                  </li>
-                  <li class="entry__meta-date">
-                    Jan 21, 2018
-                  </li>
-                </ul>
-              </div>
-              <a href="single-post-games" class="thumb-url"></a>
-            </div>
-          </article>
-        </div>
-
+        <!-- TAMPIL BERITA -->
+        
         <div class="hero-slider__item">
           <article class="entry thumb">
             <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/hero/hero_post_8.jpg');">
@@ -343,171 +322,13 @@
 
             <div class="row">
               <div class="col-md-6">
-                <article class="entry">
-                  <ul class="entry__meta">
-                    <li class="entry__meta-category">
-                      <a href="#">news</a>
-                    </li>
-                  </ul>
-                  <div class="entry__img-holder">
-                    <a href="single-post-games">
-                      <div class="thumb-container thumb-75">
-                        <img data-src="img/content/grid/grid_post_21.jpg" src="img/empty.png" class="entry__img lazyload" alt="" />
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="entry__body">
-                    <div class="entry__header">
-                      <h2 class="entry__title">
-                        <a href="single-post-games">Top Upcoming Open World RPG Games of 2018  is quickly approaching</a>
-                      </h2>
-                      <ul class="entry__meta">
-                        <li class="entry__meta-author">
-                          <span>by</span>
-                          <a href="#">DeoThemes</a>
-                        </li>
-                        <li class="entry__meta-date">
-                          Jan 21, 2018
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                <article class="entry tampilberita">
                 </article>
-                <ul class="post-list-small post-list-small--3">
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-games">
-                            <img data-src="img/content/post_small/post_small_25.jpg" src="img/empty.png" alt="" class="lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-games">'Final Fantasy XV' DLC roadmap news: Plan for expansions to extend until 2019</a>
-                        </h3>
-                        <ul class="entry__meta">
-                          <li class="entry__meta-author">
-                            <span>by</span>
-                            <a href="#">DeoThemes</a>
-                          </li>
-                          <li class="entry__meta-date">
-                            Jan 21, 2018
-                          </li>
-                        </ul>
-                      </div>                  
-                    </article>
-                  </li>
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-games">
-                            <img data-src="img/content/post_small/post_small_26.jpg" src="img/empty.png" alt="" class=" lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-games">Days Gone Gamepley Demo Shows Motorcycle Rides, Brutal Fights</a>
-                        </h3>
-                        <ul class="entry__meta">
-                          <li class="entry__meta-author">
-                            <span>by</span>
-                            <a href="#">DeoThemes</a>
-                          </li>
-                          <li class="entry__meta-date">
-                            Jan 21, 2018
-                          </li>
-                        </ul>
-                      </div>                  
-                    </article>
-                  </li>
-                </ul>
               </div>
               <div class="col-md-6">
                 <article class="entry">
-                  <ul class="entry__meta">
-                    <li class="entry__meta-category">
-                      <a href="#">reviews</a>
-                    </li>
-                  </ul>
-                  <div class="entry__img-holder">
-                    <a href="single-post-games">
-                      <div class="thumb-container thumb-75">
-                        <img data-src="img/content/grid/grid_post_22.jpg" src="img/empty.png" class="entry__img lazyload" alt="" />
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="entry__body">
-                    <div class="entry__header">
-                      <h2 class="entry__title">
-                        <a href="single-post-games">Tracing The Lineage Of S.T.A.L.K.E.R.: Shadow Of Chernobyl</a>
-                      </h2>
-                      <ul class="entry__meta">
-                        <li class="entry__meta-author">
-                          <span>by</span>
-                          <a href="#">DeoThemes</a>
-                        </li>
-                        <li class="entry__meta-date">
-                          Jan 21, 2018
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
-                <ul class="post-list-small post-list-small--3">
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-games">
-                            <img data-src="img/content/post_small/post_small_27.jpg" src="img/empty.png" alt="" class=" lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-games">The Uncompromising Vision Of Co-op Title A Way Out</a>
-                        </h3>
-                        <ul class="entry__meta">
-                          <li class="entry__meta-author">
-                            <span>by</span>
-                            <a href="#">DeoThemes</a>
-                          </li>
-                          <li class="entry__meta-date">
-                            Jan 21, 2018
-                          </li>
-                        </ul>
-                      </div>                  
                     </article>
-                  </li>
-                  <li class="post-list-small__item">
-                    <article class="post-list-small__entry clearfix">
-                      <div class="post-list-small__img-holder">
-                        <div class="thumb-container thumb-80">
-                          <a href="single-post-games">
-                            <img data-src="img/content/post_small/post_small_28.jpg" src="img/empty.png" alt="" class=" lazyload">
-                          </a>
-                        </div>
-                      </div>
-                      <div class="post-list-small__body">
-                        <h3 class="post-list-small__entry-title">
-                          <a href="single-post-games">Sega accidentally released a glitched demo of Yakuza 6</a>
-                        </h3>
-                        <ul class="entry__meta">
-                          <li class="entry__meta-author">
-                            <span>by</span>
-                            <a href="#">DeoThemes</a>
-                          </li>
-                          <li class="entry__meta-date">
-                            Jan 21, 2018
-                          </li>
-                        </ul>
-                      </div>                  
+                  </li>       
                     </article>
                   </li>
                 </ul>
@@ -1220,6 +1041,7 @@
   <script src="js/jquery.newsTicker.min.js"></script>  
   <script src="js/modernizr.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="js/tesjson.js"></script>
 
 </body>
 

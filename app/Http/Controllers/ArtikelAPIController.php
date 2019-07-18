@@ -1,9 +1,9 @@
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use App\Kategori;
-use App\Tag;
-use App\Artikel;
+use App\kategori;
+use App\tag;
+use App\artikel;
 use Session;
 use Auth;
 use File;
@@ -16,8 +16,8 @@ class ArtikelAPIController extends Controller
      */
     public function index()
     {
-        $artikel = Artikel::orderBy('created_at','desc')->get();
-        return view('backend.artikel.index',compact('artikel'));
+        $artikel = artikel::orderBy('created_at','desc')->get();
+        return view('admin.artikel.index',compact('artikel'));
     }
     /**
      * Show the form for creating a new resource.
@@ -26,9 +26,9 @@ class ArtikelAPIController extends Controller
      */
     public function create()
     {
-        $kategori = Kategori::all();
-        $tag = Tag::all();
-        return view('backend.artikel.create', compact('kategori','tag'));
+        $kategori = kategori::all();
+        $tag = tag::all();
+        return view('admin.artikel.create', compact('kategori','tag'));
     }
     /**
      * Store a newly created resource in storage.
@@ -38,14 +38,14 @@ class ArtikelAPIController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'judul' => 'required|unique:artikels',
-            'konten' => 'required|min:50',
-            'foto' => 'required|mimes:jpeg,jpg,png,gif|max:2048',
-            'id_kategori' => 'required',
-            'tag' => 'required'
-        ]);
-        $artikel = new Artikel();
+        // $request->validate([
+        //     'judul' => 'required|unique:artikels',
+        //     'konten' => 'required',
+        //     'foto' => 'required|mimes:jpeg,jpg,png,gif|max:2048',
+        //     'id_kategori' => 'required',
+        //     'tag' => 'required'
+        // ]);
+        $artikel = new artikel();
         $artikel->judul = $request->judul;
         $artikel->slug = str_slug($request->judul,'-');
         $artikel->konten = $request->konten;
@@ -82,8 +82,8 @@ class ArtikelAPIController extends Controller
      */
     public function show($id)
     {
-        $artikel = Artikel::findOrFail($id);
-        return view('backend.artikel.show', compact('artikel'));
+        $artikel = artikel::findOrFail($id);
+        return view('admin.artikel.show', compact('artikel'));
     }
     /**
      * Show the form for editing the specified resource.
@@ -93,11 +93,11 @@ class ArtikelAPIController extends Controller
      */
     public function edit($id)
     {
-        $artikel = Artikel::findOrFail($id);
-        $kategori = Kategori::all();
-        $tag = Tag::all();
+        $artikel = artikel::findOrFail($id);
+        $kategori = kategori::all();
+        $tag = tag::all();
         $select = $artikel->tag->pluck('id')->toArray();
-        return view('backend.artikel.edit', compact(
+        return view('admin.artikel.edit', compact(
             'artikel',
             'kategori',
             'tag',
@@ -113,13 +113,13 @@ class ArtikelAPIController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $request->validate([
-            'judul' => 'required',
-            'konten' => 'required|min:50',
-            'id_kategori' => 'required',
-            'tag' => 'required',
-        ]);
-        $artikel = Artikel::findOrFail($id);
+        // $request->validate([
+        //     'judul' => 'required',
+        //     'konten' => 'required|min:50',
+        //     'id_kategori' => 'required',
+        //     'tag' => 'required',
+        // ]);
+        $artikel = artikel::findOrFail($id);
         $artikel->judul = $request->judul;
         $artikel->slug = str_slug($request->judul,'-');
         $artikel->konten = $request->konten;
@@ -169,8 +169,8 @@ class ArtikelAPIController extends Controller
      */
     public function destroy($id)
     {
-        $artikel = Artikel::findOrFail($id);
-        $blog = Artikel::findOrFail($id);
+        $artikel = artikel::findOrFail($id);
+        $blog = artikel::findOrFail($id);
         if ($artikel->foto) {
             $old_foto = $artikel->foto;
             $filepath = public_path()

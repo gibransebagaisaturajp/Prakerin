@@ -51,7 +51,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">Kategori</label>
-                                <select name="nama" class="form-control">
+                                <select name="id_kategori" class="form-control">
                                 @foreach($kategori as $data)
                                     <option value="{{ $data->id }}"
                                         {{ $artikel->kategori->id ==

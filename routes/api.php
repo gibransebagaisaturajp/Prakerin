@@ -1,7 +1,5 @@
 <?php
-
 use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -12,27 +10,13 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::group(['middleware' => 'cors'], function () {
+    Route::resource('/kategori', 'KategoriController');
+    Route::resource('/tag', 'TagController');
+    Route::resource('/artikel', 'ArtikelController');
+}); 
 
-// Route::resource('categories', 'CategoryAPIController', [
-//     'only' => ['index', 'show', 'store', 'update', 'destroy']
-// ]);
-
-// Route::resource('articles', 'ArticleAPIController', [
-//     'only' => ['index', 'show', 'store', 'update', 'destroy']
-// ]);
-
-// Route::resource('users', 'UserAPIController', [
-//     'only' => ['index', 'show', 'store', 'update', 'destroy']
-// ]);
-
-// // Frontend
-// Route::resource('front', 'FrontendAPIController');
-
-Route::resource('siswa', 'Api\SiswaController');
-Route::resource('kategori', 'Api\KategoriController');
-Route::resource('artikel', 'Api\ArtikelController');
-Route::resource('tag', 'Api\TagController');
+Route::get('berita','FrontendController@berita');

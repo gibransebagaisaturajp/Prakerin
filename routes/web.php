@@ -19,22 +19,23 @@ Route::group(
     ['prefix' => '/'],
     function () {
         route::get('/', 'FrontendController@index');
-        route::get('contact', 'FrontendController@contact');
-        route::get('about', 'FrontendController@about');
         route::get('blog', 'FrontendController@blog');
-        route::get('blog/{artikel}', 'FrontendController@singleblog');
+        route::get('berita/{artikel}', 'FrontendController@singlepost');
         route::get('blog-tag/{tag}', 'FrontendController@blogtag');
         route::get('blog-kategori{kategori}', 'FrontendController@blogkategori');
+        route::get('about', 'FrontendController@about');
+                route::get('categories', 'FrontendController@categories');
+
     }
 );
-Route::group(
-    ['prefix' => 'admin', 'middleware' => 'auth'],
-    function () {
-        Route::get('/', function () {
-            return view('backend.index');
-        });
-        Route::resource('/artikel', 'ArtikelAPIController');
-        Route::resource('/kategori', 'KategoriKontroller');
-        Route::resource('/tag', 'TagKontroller');
-    }
-);
+// Route::group(
+//     ['prefix' => 'admin', 'middleware' => 'auth'],
+//     function () {
+//         Route::get('/', function () {
+//             return view('backend.index');
+//         });
+// );
+Route::resource('/artikel', 'ArtikelAPIController');
+        Route::resource('/kategori', 'KategoriController');
+        Route::resource('/tag', 'TagController');
+    
