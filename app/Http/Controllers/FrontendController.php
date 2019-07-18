@@ -11,12 +11,20 @@ class FrontendController extends Controller
 {
 	
 	// WEB
-	public function singlepost(){
-		return view('single-post-games');
+	public function singlepost(artikel $artikel){
+    $berita = artikel::all();
+    $kategori = kategori::all();
+    $tag = tag::all();
+		return view('single-post-games',compact('berita','tag','kategori'));
 	}
 	public function index(){
-		return view('welcome');
+    $kategori=kategori::all();
+    $tag=tag::all();
+		return view('welcome',compact('kategori','tag'));
 	}
+  public function blogkategori(kategori $kategori){
+    return view('blog-kategori');
+  }
   public function about(){
     return view('about');
   }

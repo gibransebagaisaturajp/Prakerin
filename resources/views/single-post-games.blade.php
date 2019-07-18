@@ -172,14 +172,12 @@
       <div class="entry__img-holder thumb__img-holder" style="background-image: url('img/content/single/single_post_games_featured_img.jpg');">
       </div>
     </div>
-  
                     </div> 
                   </div>         
                 </div>
               </div> <!-- end newsletter wide -->
 
               <!-- Prev / Next Post -->
-
              <!-- end comments -->
 
             <!-- Comment Form -->

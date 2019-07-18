@@ -261,10 +261,18 @@
 
           <!-- Widget Popular Posts -->
           <aside class="widget widget-popular-posts">
-            <h4 class="widget-title">Top Picks</h4>
+            <h4 class="widget-title">Latest</h4>
              <ul class="post-list-small">
               <li class="post-list-small__item">
-                <article class="post-list-small__entry tampilberita">
+                <article class="post-list-small__entry">
+                  <b><h4><p>Kategori</p></h4></b>
+                  @foreach($kategori as $data)
+                  <a href="/blog-kategori/{{ $data->slug }}">{{ $data->nama }}</a>
+                  @endforeach <br><br><br>
+                  <b><h4><p>Tag</p></h4></b>
+                  @foreach($tag as $data)
+                  <a href="/blog-kategori/{{ $data->slug }}">{{ $data->nama }}</a>
+                  @endforeach
                            
                 </article>
             </ul> 

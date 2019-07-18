@@ -22,7 +22,7 @@ Route::group(
         route::get('blog', 'FrontendController@blog');
         route::get('berita/{artikel}', 'FrontendController@singlepost');
         route::get('blog-tag/{tag}', 'FrontendController@blogtag');
-        route::get('blog-kategori{kategori}', 'FrontendController@blogkategori');
+        route::get('blog-kategori/{kategori}', 'FrontendController@blogkategori');
         route::get('about', 'FrontendController@about');
         route::get('categories', 'FrontendController@categories');
         route::get('single', 'FrontendController@single-post-games');
